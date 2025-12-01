@@ -30,8 +30,10 @@ python3 main.py day01 input
 python3 main.py day01 test
 ````
 
-## 📆 Status
-Day	Part 1	Part 2
-01	✔️	✔️
-02	⏳	⏳
-...	...	...
+## 📆 Progress Status
+
+| Day | Part 1 | Part 2 |
+|-----|--------|--------|
+| 01  | ✔️     | ✔️     |
+| 02  | ⏳     | ⏳     |
+| ... | ...    | ...    |
