@@ -1,9 +1,10 @@
 # 🎄 Advent of Code 2025
 
 ## 📂 Folder Structure
+```
 AoC-2025/
 │
-├── main.py                 
+├── main.py   
 │
 ├── code/                   
 │   ├── day01.py
@@ -16,29 +17,18 @@ AoC-2025/
     ├── day02.txt
     ├── day02-test.txt
     └── ...
+```
 
-## ▶️ How to Run a Solution
+## ▶️ How to Run
 
-All executions go through the main.py runner.
+```bash
+# Run with main input (default)
+python3 main.py day01
 
-1. Run with main input (default)
-python main.py day01
-
-
-or explicitly:
-
-`python main.py day01 input`
-
-Uses file:
-
-inputs/day01.txt
-
-2. Run with test input
-python main.py day01 test
-
-Uses file:
-
-inputs/day01-test.txt
+# Or explicitly
+python3 main.py day01 input
+python3 main.py day01 test
+````
 
 ## 📆 Status
 Day	Part 1	Part 2
