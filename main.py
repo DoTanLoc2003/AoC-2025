@@ -10,7 +10,7 @@ def run_day(day_str, mode):
         return
 
     if mode == "test":
-        input_path = os.path.join("inputs", f"{day_str}-test.txt")
+        input_path = os.path.join("inputs/tests", f"{day_str}.txt")
     else:
         input_path = os.path.join("inputs", f"{day_str}.txt")
 
