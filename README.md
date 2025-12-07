@@ -1,6 +1,10 @@
 # 🎄 Advent of Code 2025
 
 ## 📂 Folder Structure
+
+- Your personal inputs should be in inputs/day__.txt
+- inputs/test/day__.txt are default examples given in the puzzle
+
 ```
 AoC-2025/
 │
@@ -11,11 +15,13 @@ AoC-2025/
 │   ├── day02.py
 │   └── ...
 │
-└── inputs/                 
+└── inputs/
+    ├── tests
+    │   ├── day01.txt           
+    │   ├── day02.txt
+    │   └── ...
     ├── day01.txt          
-    ├── day01-test.txt     
     ├── day02.txt
-    ├── day02-test.txt
     └── ...
 ```
 
@@ -40,5 +46,6 @@ python3 main.py day01 test
 | 04  | ✔️     | ✔️     |
 | 05  | ✔️     | ✔️     |
 | 06  | ✔️     | ✔️     |
-| 07  | ⏳     | ⏳     |
+| 07  | ✔️     | ✔️     |
+| 08  | ⏳     | ⏳     |
 | ... | ...    | ...    |
