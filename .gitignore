@@ -12,3 +12,7 @@ venv/
 # OS files
 .DS_Store
 Thumbs.db
+
+# personal inputs
+inputs/*.txt
+!input/tests/*.txt
