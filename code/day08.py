@@ -62,7 +62,42 @@ def part1():
     
     return result
 
+def part2():
+    n = len(coor)
+    
+    edges = []
+    for i in range(n):
+        for j in range(i + 1, n):
+            dist = distance(coor[i], coor[j])
+            edges.append((dist, i, j))
+    
+    edges.sort()
+    
+    parent = list(range(n))
+    size = [1] * n
+    components = n
+    
+    last_connection = None
+    
+    for dist, i, j in edges:
+        if union(parent, size, i, j):
+            components -= 1
+            last_connection = (i, j)
+            
+            if components == 1:
+                break
+    
+    if last_connection:
+        i, j = last_connection
+        x1 = coor[i][0]
+        x2 = coor[j][0]
+        result = x1 * x2
+        return result
+    
+    return 0
+    
 def solve(input_data):
     parse(input_data)
     p1 = part1()
-    return f"{p1}"
+    p2 = part2()
+    return f"{p1}\n{p2}"
